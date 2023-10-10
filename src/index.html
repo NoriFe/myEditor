@@ -6,9 +6,19 @@
   <link href="./index.css" rel="stylesheet">
   <title>My Editor</title>
 </head>
-<body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
+<body class="bg-slate-900 text-white flex min-h-screen justify-center items-center">
+    <main class="w-full p-4 max-w-xl">
+  <h1 class="text-4xl font-bold mb-4">
+    My Editor
   </h1>
+  <textarea class="w-full h-64 mb-4 text-black p-3 rounded-lg">
+
+  </textarea>
+  <div class="flex justify-end gap-2">
+  <button type="button" class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80 font-medium rounded-lg text-sm px-3 py-1.5 text-center mr-2 mb-2">Save</button>
+  <button type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-3 py-1.5 text-center mr-2 mb-2 ">Load</button>
+</div>
+</main>
+  <script src="./main.js" type="module"></script>
 </body>
 </html>
